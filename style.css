@@ -1,0 +1,133 @@
+/* Left column */
+.leftCol{
+    background-color: #0075a7;
+    color:white;
+}
+
+/* Name and Description */
+.heading h1{
+    padding:10px 20px 5px;
+    font-weight: 700;
+}
+
+.heading h3{
+    padding:0 20px 10px;
+    font-weight: 500;
+}
+
+/* Personal Info Section */
+.personalInfoTitle{
+    padding:5px 10px;
+    background-color:#005c85;
+    width:100%;
+}
+
+.personalInfoTitle h3{
+    padding:5px 10px;
+    margin:0;
+    font-weight: 400;
+}
+
+.personalInfo{
+    padding:20px;
+}
+
+.personalInfo p:nth-child(odd){
+    padding:0px;
+    margin:0px;
+}
+
+.personalInfo p:last-child{
+    padding:0;
+    margin:0;
+}
+
+.personalInfo a{
+    color:white;
+}
+
+.personalInfo a:hover{
+    color:#135976;
+}
+
+/* Skills Section */
+
+.skillsTitle{
+    padding:5px 10px;
+    margin:0;
+    background-color:#005c85;
+    width:100%;
+}
+
+.skillsTitle h3{
+    padding:5px 10px;
+    margin:0;
+    font-weight: 400;
+}
+
+.skills p{
+    padding:10px 20px 0px;
+}
+
+.progress{
+    margin-left:5px;
+}
+
+#progBar{
+    background-color:white;
+}
+
+.progressBarContainer p{
+    float:right;
+}
+
+.progressBarContainer:after{
+    content: "";
+    clear:both;
+    display:block;
+}
+
+/* Right Column */
+.rightCol{
+    background-color:white;
+    color:black;
+}
+/* Summary about me */
+.summary{
+    padding:15px 15px 0;
+}
+
+/* Experience Section */
+
+.experienceTitle h3{
+    padding:0 15px;
+    color:#005c85;
+    font-weight: 700;
+}
+hr {
+    width:100%;
+    color:rgba(215, 205, 205, 0.824);
+    background-color:rgba(215, 205, 205, 0.824);
+}
+
+.experience{
+    padding:0 15px;
+}
+
+.personalProject{
+    font-style: italic;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+/* Education */
+
+.education h3{
+    padding:0 15px;
+    color:#005c85;
+    font-weight: 700;
+}
+
+.educationInfo{
+    padding:0 15px;
+}
